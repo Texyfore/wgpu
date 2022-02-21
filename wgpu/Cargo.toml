@@ -26,55 +26,6 @@ all-features = true
 
 [lib]
 
-[[test]]
-name = "wgpu-tests"
-path = "tests/root.rs"
-
-[[example]]
-name="boids"
-test = true
-
-[[example]]
-name="bunnymark"
-test = true
-
-[[example]]
-name="conservative-raster"
-test = true
-
-[[example]]
-name="cube"
-test = true
-
-[[example]]
-name="hello-compute"
-test = true
-
-[[example]]
-name="mipmap"
-test = true
-
-[[example]]
-name="msaa-line"
-test = true
-
-[[example]]
-name="shadow"
-test = true
-
-[[example]]
-name="skybox"
-test = true
-
-[[example]]
-name="texture-arrays"
-required-features = ["spirv"]
-test = true
-
-[[example]]
-name="water"
-test = true
-
 [features]
 default = []
 spirv = ["naga/spv-in"]
